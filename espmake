@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+main() {
+  make -f /usr/local/src/makeEspArduino/makeEspArduino.mk "$@"
+}
+
+main "$@"
